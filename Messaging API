@@ -1,0 +1,2 @@
+$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('5W8c4XOOOd3WR74U7hC5Q1f16E8KVkKsCf3YCIX3x+hrYFkbWkI+vwaExacYovg8vLcsZ5AlQusbCt13XR8jZ3+xB+6shppzOACOczeJef/NV6wKtD3Cy3sxHjw4rfsIBqIQUPk0t6QonO/Zg+GxRwdB04t89/1O/w1cDnyilFU=');
+$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => 'a68c5fc411439febd3b7aafdf53d7fed']);
