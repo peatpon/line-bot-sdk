@@ -1,23 +1,12 @@
 mkdir -p linebot/web
-
 cd linebot
-
 composer require php
-
 composer require linecorp/line-bot-sdk
-
 composer require monolog/monolog
-
 echo "vendor/" > .gitignore
-
 echo "web: vendor/bin/heroku-php-apache2 web/" > Procfile
-
 echo "<?php phpinfo(); " > web/index.php
-
 git init
-
 git add . && git commit -am "init"
-
 heroku create
-
 git push heroku master
